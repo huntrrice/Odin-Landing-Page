@@ -1,3 +1,7 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* dark background color */
 .header,.section-1,.footer {
     background-color: #1f2937;
@@ -7,29 +11,52 @@
 .section-1 .text h1 {
     font-size: 48px;
     color: white;
+    font-weight: bolder;
 }
 
 /* Hero Secondary text, Header Link Text */
-li a {
+li a, .section-1 .text p {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #E5E7EB;  
 }
 
 /* Header Logo Text */
-.logo {
+.logo, .blue-box .text .title {
     font-size: 24px;
     color: white;
+    font-weight: bolder;
 }
 
 /* Button color, call to action background color */
 button, .blue-box {
     background-color: #3882F6;
+    color: white;
+}
+
+/* blue box title text */
+.blue-box .text .title {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+/* blue box secondary text */
+.blue-box .text .subtext {
+    color: #E5E7EB; 
+    font-size: 18px;
 }
 
 /* information header text */
 .section-2 h1 {
     font-size: 36px;
     color: #1F2937;
+    font-weight: bolder;
+}
+
+/* information secondary text */
+.card p {
+    font-size: 18px;
+    color: rgb(91, 91, 91);
 }
 
 /* Quote section background color */
@@ -41,8 +68,18 @@ button, .blue-box {
 .section-3 .text {
     font-size: 36px;
     color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
 }
 
+.section-3 .credit {
+    font-weight: bold;
+}
+
+/* footer text */
+.footer {
+    color: white;
+}
 
 
 
