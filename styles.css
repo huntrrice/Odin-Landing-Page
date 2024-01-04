@@ -1,0 +1,49 @@
+/* dark background color */
+.header,.section-1,.footer {
+    background-color: #1f2937;
+}
+
+/* Hero Main Text ("this website is awesome")*/
+.section-1 .text h1 {
+    font-size: 48px;
+    color: white;
+}
+
+/* Hero Secondary text, Header Link Text */
+li a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Header Logo Text */
+.logo {
+    font-size: 24px;
+    color: white;
+}
+
+/* Button color, call to action background color */
+button, .blue-box {
+    background-color: #3882F6;
+}
+
+/* information header text */
+.section-2 h1 {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+/* Quote section background color */
+.section-3 {
+    background-color: #E5E7EB;
+}
+
+/* Quote text */
+.section-3 .text {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+
+
+
+
